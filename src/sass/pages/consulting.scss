@@ -1,0 +1,186 @@
+.consulting{
+    .bg{
+        background-image: url('../../assets/whowearebg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        padding-top: 20px;
+        .who-we-are{    
+            padding: 50px 0;
+            text-align: center;
+            .h1{
+                font-size: 40px;
+                color: #00EAFA;
+                letter-spacing: 0.2em;
+                margin-bottom: 1.555rem;
+                &.small, .small{
+                    font-size: 26px;
+                    letter-spacing: normal;
+                }
+            }
+            .p{
+                font-size: 19px;
+                color: white;
+                line-height: 26.6px;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .video-bg{
+        background-image: url('../../assets/mainvideo/v.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        .services{
+            text-align: center;
+            padding: 50px 0;
+            .h1{
+                font-size: 40px;
+                line-height: 56px;
+                color: #00EAFA;
+                letter-spacing: 6px;
+                font-weight: 700;
+            }
+            .service{
+                text-align: center;
+                margin-top: 80px;
+                .h2{
+                    margin-top: 10px;
+                    font-size: 21px;
+                    color: white;
+                    letter-spacing: 0.1em;
+                }
+                .p{
+                margin-top: 10px;
+                font-size: 16px;
+                line-height: 25.2px;
+                color: white;
+                padding: 0px 15px;
+            }    
+            }
+            .bottom-text{
+                p{
+                font-size: 18px;
+                line-height: 25.2px;
+                color: rgb(191, 187, 187);
+                padding: 0px 15px;
+                }
+                margin-top: 3.5rem;
+            }
+            
+        }
+    }
+    .clients-bg{
+        background-image: url('../../assets/whowearebg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        .our-clients{
+            padding: 50px 0;
+            text-align: center;
+            .h1{
+                font-size: 40px;
+                color: #00EAFA;
+                letter-spacing: 0.2em;
+                margin-bottom: 1.555rem;
+                &.small, .small{
+                    font-size: 26px;
+                    letter-spacing: normal;
+                }
+            }
+            .client{
+                &:not(:last-child){
+                    margin-bottom: 1rem;
+                }
+                .image-block{
+                    cursor: pointer;
+                    transition: all 0.5s;
+                    .img1{
+                        
+                        display: block;
+                    }
+                    .img1hover{
+                        display: none;
+                    }
+                    .img2hover{
+                        display: none;
+                    }
+                    .img3hover{
+                        display: none;
+                    }
+                    &:hover{
+                        .img1{
+                            display: none;
+                        }
+                        .img1hover{
+                            display: block;
+                        }
+                        .img2{
+                            display: none;
+                        }
+                        .img2hover{
+                            display: block;
+                        }
+                        .img3{
+                            display: none;
+                        }
+                        .img3hover{
+                            display: block;
+                        }
+                    }
+
+                }
+                .detail-block{
+                    text-align: left;
+                    .h1{
+                        font-size: 60px;
+                        color: white;
+                        font-weight: 900;
+                        margin-bottom: 0;
+                    }
+                    .h2{
+                        font-size: 21px;
+                        color: white;
+                        letter-spacing: 0.05em;
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+            
+        }
+    }
+    .contact-bg{
+        background-image: url('../../assets/whowearebg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        .contact-us{
+            padding: 50px 0;
+            text-align: center;
+            .h1{
+                font-size: 40px;
+                color: #00EAFA;
+                letter-spacing: 0.2em;
+                margin-bottom: 1.555rem;
+                &.small, .small{
+                    font-size: 26px;
+                    letter-spacing: normal;
+                }
+            }
+            input{
+                margin-bottom: 1rem;
+            }
+            .btn-contact{
+                border: 1px solid rgba(180, 90, 212, 0.8);
+                background-color: unset;
+                color: white;
+                font-weight: bold;
+                padding: 10px 40px;
+                margin-top: 1rem;
+                cursor: pointer;
+                transition: all 0.5s;
+                &:hover{
+                    background-color: rgba(180, 90, 212, 0.8)
+                }
+            }
+        }
+    }
+    
+    
+}
