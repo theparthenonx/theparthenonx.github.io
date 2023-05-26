@@ -1,0 +1,29 @@
+.analytics-beta-section{
+    padding: 30px 0 100px 0!important;
+    background-image: url('../../assets/whowearebg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    // height: 100vh;
+    .analytics-beta{
+        position: relative;
+        top: 10%;
+        @media screen and (max-width: 450px) {
+            top: 5%;
+        }
+        .h1{
+            font-size: 40px;
+            color: #00EAFA;
+            letter-spacing: 0.2em;
+            margin-bottom: 1.555rem;
+            &.small, .small{
+                font-size: 26px;
+                letter-spacing: normal;
+            }
+        }
+        .chart{
+            // background-color: white;
+            // opacity: 0.1;
+            margin-top: 1rem;
+        }
+    }
+}

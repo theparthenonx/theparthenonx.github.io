@@ -1,0 +1,60 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+.home{
+    overflow: hidden;
+    background-image: url('../../assets/mainvideo/v.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    #circle{
+        background-image: url('../../assets/circle.svg');
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position: center;
+        @media screen and  (max-width: 700px ) {
+            background: none;
+        }
+    }
+    .main-heading{
+        justify-content: center;
+        position: relative;
+        top: 180px;
+       
+        &.navigation, .navigation{
+            top: 210px;
+            @media screen and(max-width: 991px) {
+                top: 180px;
+            }
+        }
+        .h1{
+            font-size: 35px;
+            color: white;
+            letter-spacing: 0.2em;
+            &.small, .small{
+                font-size: 26px;
+                letter-spacing: normal;
+            }
+        }
+        .h2{
+            font-size: 21px;
+            color: white;
+            letter-spacing: 0.05em;
+        }
+        .button{
+            margin-top: 4rem;
+            cursor: pointer;
+                img{
+                    width: 10%;
+                }
+        }
+    }
+}

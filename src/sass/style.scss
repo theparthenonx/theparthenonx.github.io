@@ -1,0 +1,307 @@
+
+
+/* -------------------------------------------
+Fonts
+------------------------------------------- */
+@import './fonts/quicksand.scss';
+
+
+
+/*--------------CSS Grid---------------*/
+@import './vendor/CSS-grid.scss';
+
+
+
+// /* width */
+// ::-webkit-scrollbar {
+//     width: 5px;
+// }
+  
+// /* Track */
+// ::-webkit-scrollbar-track {
+//     box-shadow: var(--light-color); 
+//     // border-radius: 10px;
+//     background: var(--light-color); 
+// }
+
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//     background: var(--text-color); 
+//     border-radius: 20px;
+// }
+
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//     background: var(--primary-color); 
+// }
+
+html{
+    font-size: 28px;
+    max-width: 100%;
+    overflow-x: hidden;
+    // @media screen and (min-width: $extra_large) {
+    //     font-size: 31px;
+    // }
+    // @media screen and (max-width: $xxl) {
+    //     font-size: 25px;
+    // }
+    // @media screen and (max-width: $xl) {
+    //     font-size: 22px;
+    // }
+    // @media screen and (max-width: $md) {
+    //     font-size: 20px;
+    // }
+}
+
+.text-center{
+    text-align: center;
+}
+
+.link{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.h1{
+    font-weight: 400;
+    font-size: 3.071rem;
+    line-height: 1.06;
+    color: var(--primary-black);
+    // @media screen and (max-width: $xl) {
+    //     font-size: 2.5rem;
+    // }
+    // @media screen and (max-width: $md) {
+    //     font-size: 2.3rem;
+    // }
+    // @media screen and (max-width: $xl) {
+    //     font-size: 3.09rem;
+    // }
+    // @media screen and (max-width: $md) {
+    //     font-size: 2.6rem;
+    // }
+}
+
+.h2{
+    font-weight: 400;
+    font-size: 2.571rem;
+    line-height: 1.25;
+    color: var(--primary-black);
+    // @media screen and (max-width: $xl) {
+    //     font-size: 2rem;
+    // }
+    // @media screen and (max-width: $md) {
+    //     font-size: 1.7rem;
+    // }
+}
+
+.h3{
+    font-weight: 400;
+    font-size: 2.035rem;
+    line-height: 1.122;
+    color: var(--primary-black);
+    // @media screen and (max-width: $xl) {
+    //     font-size: 1.7rem;
+    // }
+    // @media screen and (max-width: $md) {
+    //     font-size: 1.5rem;
+    // }
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.571;
+    color: var(--green-color-100);
+    &.small{
+        font-size: 0.857rem;
+    }
+    &.extra-small{
+        font-size: 0.714rem;
+    }
+    &.large{
+        font-size: 1.285rem;
+        // @media screen and (max-width: $xl) {
+        //     font-size: 1.1rem;
+        // }
+        // @media screen and (max-width: $md) {
+        //     font-size: 1.05rem;
+        // }
+    }
+    &.extra-large{
+        font-size: 1.428rem;
+        // @media screen and (max-width: $xl) {
+        //     font-size: 1.3rem;
+        // }
+        // @media screen and (max-width: $md) {
+        //     font-size: 1.2rem;
+        // }
+    }
+}
+
+input:focus, textarea:focus, button:focus, select:focus, a:focus{
+    outline: 0;
+    background-color: rgba(180, 90, 212, 0.8);
+}
+
+input:hover, textarea:hover, button:hover, select:hover, a:hover{
+    outline: 0;
+    background-color: rgba(180, 90, 212, 0.8);
+    border: 0;
+}
+
+input::placeholder, textarea::placeholder{
+    // opacity: 0.6;
+    color: white;
+}
+
+input{
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    height: 42px;
+    padding-left: 10px;
+    color: white;
+}
+select{
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    height: 42px;
+    padding-left: 10px;
+    color: white;
+}
+textarea{
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    // height: 42px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+section{
+    padding: 5.357rem 0px;
+    // @media screen and (max-width: $md) {
+    //     padding: 4rem 0px;
+    // }
+    &:first-child{
+        padding-top: 10.714rem;
+        // @media screen and (max-width: $md) {
+        //     padding-top: 7rem;
+        // }
+    }
+    &:last-child{
+        padding-bottom: 10.714rem;
+        // @media screen and (max-width: $md) {
+        //     padding-bottom: 7rem;
+        // }
+    }
+    &.p-t-full{
+        padding-top: 10.714rem;
+        // @media screen and (max-width: $md) {
+        //     padding-top: 7rem;
+        // }
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+hr{
+    height: 5px;
+    // width: 280px;
+    background-color: rgba(0, 234, 250, 0.5);
+    border: none;
+    margin: 1rem 0;
+}
+
+.section-title{
+    &.normal-spacing{
+        margin-bottom: 1.785rem;
+    }
+    &.extra-spacing{
+        margin-bottom: 4.285rem;
+    }
+}
+
+
+.nav{
+    .btn-nav{
+        border: 1px solid rgba(180, 90, 212, 0.8);
+        background-color: unset;
+        color: white;
+        font-weight: bold;
+        padding: 8px 20px;
+        margin-top: 1rem;
+        margin-top: 0;
+        // border-width: 0;
+        text-decoration: none;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.5s;
+        &:hover{
+            background-color: rgba(180, 90, 212, 0.8)
+        }
+    }
+}
+
+.footer{
+    background-color: #050e74;;
+    .footer-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0 18px 0;
+        text-align: center;
+        .p{
+            font-size: 18px;
+            line-height: normal;
+            color: white;
+            margin-right: 15px
+        }
+        img{
+            width: 20px
+        }
+
+    }
+}
+
+
+
+
+
+
+/* -------------------------------------------
+Pages
+------------------------------------------- */
+/*-------------- Common Style ---------------*/
+// @import './pages/common-style.scss';
+
+/*-------------- Home ---------------*/
+@import './pages/home.scss';
+@import './pages/consulting.scss';
+@import './pages/analyticsbeta.scss';
