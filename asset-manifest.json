@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6184362c.css",
-    "main.js": "/static/js/main.49b1e900.js",
-    "static/js/787.3f47d327.chunk.js": "/static/js/787.3f47d327.chunk.js",
-    "static/media/v.webp": "/static/media/v.2bbc20f346563bcc7b8d.webp",
-    "static/media/img3hover.png": "/static/media/img3hover.8f0c1c710e0c8ad3cdb3.png",
-    "static/media/3.png": "/static/media/3.6c479f3268e00bd78e37.png",
-    "static/media/client2.png": "/static/media/client2.9fc8fa1c3f61ba51211b.png",
-    "static/media/client3.png": "/static/media/client3.41cc0e7f0c18f1468b37.png",
-    "static/media/img2hover.png": "/static/media/img2hover.f37b6ec54e816fbc53f3.png",
-    "static/media/clienthover.png": "/static/media/clienthover.ec7628417e70e4c8aff3.png",
-    "static/media/whowearebg.jpg": "/static/media/whowearebg.380f3ffab7a9667f17c4.jpg",
-    "static/media/circle.svg": "/static/media/circle.fe546bab16b08f35a9ab.svg",
-    "index.html": "/index.html",
-    "main.6184362c.css.map": "/static/css/main.6184362c.css.map",
-    "main.49b1e900.js.map": "/static/js/main.49b1e900.js.map",
-    "787.3f47d327.chunk.js.map": "/static/js/787.3f47d327.chunk.js.map"
+    "main.css": "/theparthenonx.github.io/static/css/main.b8236a73.css",
+    "main.js": "/theparthenonx.github.io/static/js/main.6c4ced16.js",
+    "static/js/787.3f47d327.chunk.js": "/theparthenonx.github.io/static/js/787.3f47d327.chunk.js",
+    "static/media/v.webp": "/theparthenonx.github.io/static/media/v.2bbc20f346563bcc7b8d.webp",
+    "static/media/img3hover.png": "/theparthenonx.github.io/static/media/img3hover.8f0c1c710e0c8ad3cdb3.png",
+    "static/media/3.png": "/theparthenonx.github.io/static/media/3.6c479f3268e00bd78e37.png",
+    "static/media/client2.png": "/theparthenonx.github.io/static/media/client2.9fc8fa1c3f61ba51211b.png",
+    "static/media/client3.png": "/theparthenonx.github.io/static/media/client3.41cc0e7f0c18f1468b37.png",
+    "static/media/img2hover.png": "/theparthenonx.github.io/static/media/img2hover.f37b6ec54e816fbc53f3.png",
+    "static/media/clienthover.png": "/theparthenonx.github.io/static/media/clienthover.ec7628417e70e4c8aff3.png",
+    "static/media/whowearebg.jpg": "/theparthenonx.github.io/static/media/whowearebg.380f3ffab7a9667f17c4.jpg",
+    "static/media/circle.svg": "/theparthenonx.github.io/static/media/circle.fe546bab16b08f35a9ab.svg",
+    "index.html": "/theparthenonx.github.io/index.html",
+    "main.b8236a73.css.map": "/theparthenonx.github.io/static/css/main.b8236a73.css.map",
+    "main.6c4ced16.js.map": "/theparthenonx.github.io/static/js/main.6c4ced16.js.map",
+    "787.3f47d327.chunk.js.map": "/theparthenonx.github.io/static/js/787.3f47d327.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6184362c.css",
-    "static/js/main.49b1e900.js"
+    "static/css/main.b8236a73.css",
+    "static/js/main.6c4ced16.js"
   ]
 }
